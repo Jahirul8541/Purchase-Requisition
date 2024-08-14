@@ -1,0 +1,27 @@
+{
+    "name": "btal/purchaserequisition",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Btal\\PurchaseRequisition\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jahirul",
+            "email": "mdjahirul132000@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "copyright": "www.pondit.com",
+        "laravel": {
+            "providers": [
+                "Btal\\PurchaseRequisition\\PurchaseRequisitionServiceProvider"
+            ],
+            "aliases": {}
+        } 
+    }
+}
